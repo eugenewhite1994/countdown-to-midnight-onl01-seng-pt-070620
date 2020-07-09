@@ -8,8 +8,8 @@ end
 countdown(10)
 
 
-def countdown_with_sleep
-  sleep 5
-  puts "Happy New Year! "
+def countdown_with_sleep(numbers)
+  sleep numbers
+  puts "HAPPY NEW YEAR! "
 end
-countdown_with_sleep
+countdown_with_sleep(10)
