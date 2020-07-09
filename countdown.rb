@@ -2,11 +2,12 @@ def countdown(number)
   while number > 0
   puts "#{number} SECONDS!"
 number += 1
+until number == 10
   break
 end
 end
 
-countdown(9)
+countdown(0)
 
 
 def countdown_with_sleep
