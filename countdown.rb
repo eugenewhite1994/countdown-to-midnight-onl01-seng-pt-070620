@@ -6,6 +6,7 @@ until number == 10
   break
 end
 end
+end
 
 countdown(0)
 
